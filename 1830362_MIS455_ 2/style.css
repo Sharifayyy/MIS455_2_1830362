@@ -1,0 +1,39 @@
+.container {
+    width: 800px;
+    margin: auto;
+    display: block;
+}
+.row {
+    display: flex;
+}
+.col-2 {
+    flex: 50%;
+    width: 50%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 500px;
+}
+.col-3 {
+    flex: 33.33%;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 10px;
+    width: 33.33%;
+    border-radius: 500px;
+}
+
+.centred-img {
+    
+    margin: auto;
+    display:block;   
+    border-radius: 200px;
+}
+
+p {
+    text-align: justify;
+}
+
+body{
+    background-image:url(image/pokemon.jpg);
+
+}
